@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+  
+  <form method="post">
+    <fieldset>
+    <legend>FORMS</legend>
+  
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="Enter your name" required minlength="5" maxlength="15"><br><br>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required minlength="5" maxlength="10"><br><br>
+
+    <label for="e-mail">E-mail:</label>
+    <input type="email" id="e-mail" name="E-mail" placeholder="Eg:abc@gamil.com" ><br><br>
+    <label for="mobile">Mobile NO:</label>
+    <input type="number" id="mobile" name="mobile" minlength="10" maxlength="10"><br><br>
+    <label for="time">Time:</label>
+    <input type="time" id="time" name="time"><br><br>
+    <label for="year">Year:</label>
+    <input type="month" id="year" name="year"><br><br>
+    <label for="color">Color:</label>
+    <input type="color" id="color" name="color"><br><br>
+    <input type="range" id="range" name="range" required maxlength="10"><br><br>
+    <label for="lang_HTML">HTML:</label>
+    <input type="checkbox" id="lang_HTML" value="HTML">
+    <label for="lang_CSS">CSS:</label>
+    <input type="checkbox" id="lang_CSS" value="CSS"><br><br>
+    <label for="gender">Gender:</label>
+    
+    <label for="male">Male</label>
+    <input type="radio" id="male"  name="gender" value="male">
+    <label for="female">Female</label>
+    <input type="radio" id="female"  name="gender" value="female"><br><br>
+    <textarea name="Address" placeholder="Adress in 50 char" minlength="50" maxlength="60"></textarea><br><br>
+    <button type="submit">Submit</button>
+
+
+    </fieldset>
+  </form>
+
+    
+</body>
+</html>
